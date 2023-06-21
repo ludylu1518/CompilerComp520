@@ -1,0 +1,36 @@
+Changes to AST classes:
+	NullLiteral:
+		added new class NullLiteral extending Terminal
+		updated visitor with corresponding visitNullLiteral method
+		
+	Identifier:
+		added new Declaration attribute to class
+		
+	Reference:
+		added new Declaration attribute to class
+		
+	MethodDecl:
+		added new returnType of TypeDenoter attribute to class, could be null if no return stmt
+		added field builtIn to check if function is builtIn function or not
+		
+	Statement:
+		added new correspondingMethod of MethodDecl attribute to class, to access the method that the stmt resides
+		
+	TypeKind:
+		added new type: null
+		
+	TypeDenoter:
+		added abstract method equals to check if two types are the same and implement function to all subsequent child class
+	
+	BaseType:
+		implemented equals method
+	
+	ClassType:
+		implemented equals method
+		
+	ArrayType:
+		implemented equals method
+		
+	Declaration:
+		added RuntimeEntity field
+		

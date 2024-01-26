@@ -5,8 +5,8 @@ The project's instructions and the Java language used are in the Instructions fo
 
 ## Components
 #### Syntatic Analysis
--**Scanner**: Read the files and convert them into Tokens.
--**Parser**: Read the Tokens and check if they follow the rules of the language.
+- **Scanner**: Read the files and convert them into Tokens.
+- **Parser**: Read the Tokens and check if they follow the rules of the language.
 #### Contextual Analysis
 #### Code Generator
 
